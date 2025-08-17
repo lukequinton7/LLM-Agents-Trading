@@ -1,6 +1,6 @@
 # A Multi-LLM-Agent Framework for Macroeconomic Signal Extraction and Financial Trading
 
-The framework addresses a novel trading framework for trading zero-coupon U.S Treasuries; it features a collaborative, two-step "Analyst-Trader" multi-agent system that makes trading decisions guided by macroeconomic analysis and time-series predictions. The system was back-tested and shown to generate significant positive returns, outperforming all benchmark models across a range of market conditions.
+The project addresses a novel trading framework for trading zero-coupon U.S Treasuries; it features a collaborative, two-step "Analyst-Trader" multi-agent system that makes trading decisions guided by macroeconomic analysis and time-series predictions. The system was back-tested and shown to generate significant positive returns, outperforming all benchmark models across a range of market conditions.
 
 ## Core Components
 
