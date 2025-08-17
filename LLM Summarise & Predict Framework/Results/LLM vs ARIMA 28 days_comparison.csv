@@ -1,0 +1,2 @@
+mae_difference,rmse_difference,llm_better_mae,llm_better_rmse,t_statistic,p_value,significant_5pct
+0.020952380952381,0.021942021005310036,False,False,1.0964954777045295,0.279260793587555,False
