@@ -1,10 +1,6 @@
 # A Multi-LLM-Agent Framework for Macroeconomic Signal Extraction and Financial Trading
 
-This project, based on the dissertation by Luke Quinton (University of Edinburgh, 2025), designs, implements, and evaluates a novel multi-LLM agent framework for trading U.S. Treasuries.
-
-## Overview
-
-The framework utilises a collaborative, two-step "Analyst-Trader" agent system that makes trading decisions guided by macroeconomic analysis and time-series predictions. The system was back-tested and shown to generate significant positive returns, outperforming all benchmark models across a range of market conditions.
+The framework utilises a collaborative, two-step "Analyst-Trader" multi-agent system that makes trading decisions guided by macroeconomic analysis and time-series predictions. The system was back-tested and shown to generate significant positive returns, outperforming all benchmark models across a range of market conditions.
 
 ## Core Components
 
@@ -35,7 +31,7 @@ The project is built around a sequence of Python scripts that perform signal ext
 
 The project follows a modular workflow. The core steps are:
 
-1.  **Summarise Data**: Run a summariser agent to process raw news articles into summaries.
+1.  **Summarise and Filter News Articles**: Run a summariser agent to process raw news articles into summaries.
 2.  **Generate Predictions**: Execute the inflation predictor script to create forward-looking macroeconomic signals.
 3.  **Simulate Trades**: Run either `Bond_Trade_1_ARIMA.py` or `Bond_Trade_2_Simple.py` to backtest the trading strategies.
 4.  **Analyse Results**: Use the performance and visualisation scripts to evaluate the outcomes.
